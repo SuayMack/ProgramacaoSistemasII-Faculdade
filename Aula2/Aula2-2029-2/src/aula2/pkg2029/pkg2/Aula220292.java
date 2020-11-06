@@ -3,17 +3,19 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package aula2.pkg2019;
+package aula2.pkg2029.pkg2;
 
 /**
  *
  * @author Priscila
  */
-public class Pessoa {
-    String nome;
-    String telefone;
-    
-    public static void exibirPessoa(){
-        System.out.println("Oi, eu sou uma pessoa");
+public class Aula220292 {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        // TODO code application logic here
     }
+    
 }

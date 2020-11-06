@@ -9,11 +9,10 @@ package aula2.pkg2019;
  *
  * @author Priscila
  */
-public class Pessoa {
-    String nome;
-    String telefone;
-    
-    public static void exibirPessoa(){
-        System.out.println("Oi, eu sou uma pessoa");
+public class Impressora {
+    String modelo;    
+    public void imprimir() {
+        System.out.println("flkjsfgljsdflgj");
     }
+    
 }
