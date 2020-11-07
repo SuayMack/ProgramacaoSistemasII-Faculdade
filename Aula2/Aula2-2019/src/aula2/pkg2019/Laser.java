@@ -10,12 +10,9 @@ package aula2.pkg2019;
  * @author Priscila
  */
 public class Laser extends Impressora {
-
-    /**
-     *
-     */
     @Override
     public void imprimir(){
+        super.imprimir();
         System.out.println("Imprimindo a laser.");
     }
 }

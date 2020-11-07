@@ -12,6 +12,7 @@ package aula2.pkg2019;
 public class JatoDeTinta extends Impressora {
     @Override
     public void imprimir() {
+        super.imprimir();
         System.out.println("Imprimindo na Jato de Tinta!");
     }
 }
