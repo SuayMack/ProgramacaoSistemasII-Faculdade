@@ -13,7 +13,7 @@ public class Pessoa {
     String nome;
     String telefone;
     
-    public static void exibirPessoa(){
+    public void exibirPessoa(){
         System.out.println("Oi, eu sou uma pessoa");
     }
 }

@@ -11,4 +11,11 @@ package aula2.pkg2019;
  */
 public class PessoaJuridica extends Pessoa {
     String cnpj;
+    
+    @Override 
+    public void exibirPessoa() {
+            System.out.println("Razão Social: " + nome +
+                    "\nTelefone: " + telefone +
+                    "\nCPF: " + cnpj);
+    }
 }

@@ -15,18 +15,18 @@ public class Aula22019 {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
-        Pessoa.exibirPessoa();
-        
+        // TODO code application logic here        
         PessoaFisica f = new PessoaFisica();
         f.nome = "Priscila";
-        f.cpf = "55215478";        
+        f.cpf = "55215478";  
+        f.exibirPessoa();
         
         PessoaJuridica j = new PessoaJuridica();
+        j.nome = "Empresa";
+        j.telefone = "552143542425";
         j.cnpj = "112457889985";
-        
-        System.out.println(f.nome + " " + f.cpf + "\n " + j.cnpj);
-        
+        j.exibirPessoa();
+               
         Laser imp1 = new Laser();
         JatoDeTinta imp2 = new JatoDeTinta();
         

@@ -12,4 +12,15 @@ package aula2.pkg2019;
 public class PessoaFisica extends Pessoa {
     String cpf;
     int idade;
+    
+    /**
+     *
+     */
+    @Override 
+    public void exibirPessoa() {
+            System.out.println("Nome: " + nome +
+                    "\nIdade: " + idade +
+                    "\nTelefone: " + telefone +
+                    "\nCPF: " + cpf);
+    }
 }
